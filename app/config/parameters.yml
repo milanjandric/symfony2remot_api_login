@@ -1,0 +1,18 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: staff-login-example
+    database_user: root
+    database_password: password
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: 651aca9882bc3299f7f84b8f27c05ae93e31f674
+    jwt_private_key_path: '%kernel.root_dir%/var/jwt/private.pem'
+    jwt_public_key_path: '%kernel.root_dir%/var/jwt/public.pem'
+    jwt_key_pass_phrase: abrakadabra
+    jwt_token_ttl: 86400
