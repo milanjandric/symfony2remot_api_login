@@ -44,6 +44,8 @@ $ php -S localhost:8000
 
 2. Click logout button
 
-3. Obtain JWT token: `curl -X POST http://localhost:8000/app_dev.php/api/login_check -d _username= -d _password=`
+3. Note: This step mimics our staff-login application. It will send request for JWT token and redirect user to the application url that is shown in step 4. 
+
+Obtain JWT token: `curl -X POST http://localhost:8000/app_dev.php/api/login_check -d _username= -d _password=`
 
 4. Login using JWT token: http://localhost:8000/app_dev.php/api/secure?token=
